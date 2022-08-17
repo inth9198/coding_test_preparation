@@ -44,4 +44,3 @@ def dfs(deep_i):
     tmp_r, tmp_c, tmp_i = stack.pop()
     board[tmp_r][tmp_c] = 0
 dfs(0)
-
