@@ -5,7 +5,7 @@ def is_prime_number(x):
         if x % i == 0:
             return False
     return True
-prime_number =[]
+prime_number = []
 
 n = int(sys.stdin.readline())
 
@@ -31,5 +31,6 @@ while start != len(prime_number):
             end += 1
         else:
             start += 1
-
+[2,3,5,7]
+[2,5,10,15,22]
 print(ret)
